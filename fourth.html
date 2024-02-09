@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="fourth.css">
+</head>
+<body bgcolor="black">
+    <div class="main">
+        <h1>Number Guessing Game</h1>
+        <p>Try and guess the random number b/w 1 to 100</p>
+        <p>You have 10 attempts to guess the right number.</p>
+        <div class="new">
+            <form  class="form">
+                <div class="guess">
+                    <h2><b>Guess a Number</b></h2>
+                </div>
+                <input type="text" name="" id="gfield"><br>
+                <input type="submit" value="Submit Guess" id="subt">
+                
+            </form>
+            <div class="result">
+                <p>Previous guesses :- <span class="prev"></span></p>
+                
+                <p>Guesses Remaining : <span class="remaining">10</span></p>
+                <p class="correct"></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="fourth.js"></script>
+</html>

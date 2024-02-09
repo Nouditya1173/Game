@@ -1,0 +1,34 @@
+.new{
+    /* border: solid 2px white;*/
+     align-items: center;
+     padding: 20px;
+ }
+  .main{
+     color: white;
+     border: solid 2px;
+ margin-left: 0%;
+ margin-top: 0%;
+ text-align: center;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ margin-bottom: 500px;
+}
+b{
+ font-size: larger;
+ border: solid 2px wheat;
+ padding: 10px;
+ margin-top : 5px;
+}
+#gfield{
+ padding: 15px;
+ border: solid 2px;
+ border-radius: 5px;
+ margin: 25px;
+}
+#subt{
+ padding: 10px;
+ border: solid 2px;
+ border-radius: 5px;
+ font-size: medium;
+ 
+}
